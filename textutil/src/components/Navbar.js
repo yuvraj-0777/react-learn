@@ -15,7 +15,7 @@ export default function Navbar(props) {
             <Link className="nav-link active" aria-current="page" to="/">Home</Link>
           </li>
           <li className="nav-item">
-            <Link className="nav-link" to="/">About</Link>
+            <Link className="nav-link" to="/about">About</Link>
           </li>
         </ul>
         {/* <form className="d-flex" role="search">
